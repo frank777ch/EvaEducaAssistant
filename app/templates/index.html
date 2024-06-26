@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live2D Assistant</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Live2D Assistant</h1>
+    <div id="live2d-container"></div>
+    <textarea id="question" placeholder="Enter your question"></textarea>
+    <button onclick="sendMessage()">Send</button>
+    <p id="response"></p>
+    <audio id="responseAudio" controls></audio>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/js/live2dcubismcore.min.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
